@@ -1,0 +1,18 @@
+:root {
+    --h1-fs: 45px;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --h1-fs: 100px;
+    }
+}
+
+h1 {
+    font-size: var(--h1-fs);
+}
+
+/* Normally my font size is 45px, but if my screen gets bigger than 800px, 
+it becomes 100px.
+
+I only had to give the font-size to my element once */
